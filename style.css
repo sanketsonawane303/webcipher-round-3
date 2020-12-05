@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar .nav-item {
+  color: #696969;
+}
+
+.nav-item .active {
+  color: black;
+}
+
+.grey {
+  color: #696969;
+}
+
+.connect {
+  background-color: black;
+  color: #f8f9fa;
+  padding: 20px;
+}
+
+.connect img {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ececec;
+  color: #696969;
+  text-align: center;
+  padding: 5px;
+}
+
+.contents {
+  background-color: #ececec;
+  color: #696969;
+}
+
+.orange-text {
+  color: #f2a365;
+}
+
+.home-contents p {
+  font-size: 23px;
+}
+
+.blog-contents img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gallery-contents img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.gallery-contents img:hover {
+  position: relative;
+  top: -5%;
+  left: -5px;
+  width: 110%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  border: 5px solid white;
+}
